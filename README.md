@@ -275,11 +275,14 @@ After connecting to the Backend server........
    sudo dnf install mariadb105 -y                
 ```
 
-2. Initiate your DB connection with your Aurora RDS writer endpoint. In the following command, replace the RDS writer endpoint and the username, and then execute it in the browser terminal:
+2. Initiate your DB connection with your MYSQL RDS endpoint url. In the following command, replace the RDS writer endpoint and the username, and then execute it in the browser terminal:
 
  ```bash
- mysql -h CHANGE-TO-YOUR-RDS-ENDPOINT -u CHANGE-TO-USER-NAME -p
-``` 
+ mysql -h <db-endpoint> -P 3306 -u <username> -p     
+```
+
+<img width="1289" height="676" alt="image" src="https://github.com/user-attachments/assets/71f9bb1d-4d74-4c62-8d47-539eb7c11a90" />
+
 
 
 NOTE: If you cannot reach your database, check your credentials and security groups.
