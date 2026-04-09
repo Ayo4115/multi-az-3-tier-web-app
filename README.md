@@ -192,9 +192,43 @@ Give your subnet group a name, description, choose the Demo VPC and all the 3 su
 When adding subnets, make sure to add the subnets we created in each availability zone specificaly for our database layer. You may have to navigate back to the VPC dashboard and check to make sure you're selecting the correct subnet IDs.
 
 
-<img width="1359" height="569" alt="DB-subnet-group" src="https://github.com/user-attachments/assets/9b147eac-d475-45e2-9fc0-6dbcce65f2c4" />
+<img width="1359" height="569" alt="DB-subnet-group" src="https://github.com/user-attachments/assets/9b147eac-d475-45e2-9fc0-
+ 6dbcce65f2c4" />
+
+ **Multi-AZ Database Deployment**
+ 
+1. Navigate to Databases on the left hand side of the RDS dashboard and click Create database.
+
+2. We'll now go through several configuration steps. Start with a Standard create for this MySQL-Compatible Amazon Aurora database. Leave the rest of the defaults in the Engine options as default.
+
+
+<img width="1313" height="553" alt="image" src="https://github.com/user-attachments/assets/16074589-d166-42e8-8e01-dd6d1b9b6bf8" />
+
+
+Under the Templates section choose Dev/Test since this isn't being used for production at the moment. Under Settings set a username and password of your choice and note them down since we'll be using password authentication to access our database.
+
+<img width="1361" height="547" alt="image" src="https://github.com/user-attachments/assets/5c5d0f15-323c-49d0-9a80-de84dec0b7f2" />
+
+
+Next, under instance configuration, chode burstable class and instance typr db.t3.micro. Under Connectivity, set the VPC, choose the subnet group we created earlier, and select no for public access.
+
+<img width="1327" height="592" alt="image" src="https://github.com/user-attachments/assets/5d8aa804-7a22-4f89-9e89-57c0ed3e6f5c" />
+
+
+Next, under instance configuration, chode burstable class and instance typr db.t3.micro. Under Connectivity, set the VPC, choose the subnet group we created earlier, and select no for public access.
+
+
+
+<img width="1335" height="554" alt="image" src="https://github.com/user-attachments/assets/28bc1bf9-a30c-4776-9dc1-7e939b1663a2" />
+
+
+When your database is provisioned, you should see a reader and writer instance in the database subnets of each availability zone.
+
+<img width="1347" height="550" alt="image" src="https://github.com/user-attachments/assets/bb67edeb-19a2-4409-8c25-ef807d4430e9" />
 
 
 
 
+
+<img width="1382" height="334" alt="Database" src="https://github.com/user-attachments/assets/ec9b42d8-5528-4613-b68a-22196b1af5f8" />
 
