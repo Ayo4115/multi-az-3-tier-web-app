@@ -72,9 +72,27 @@ NOTE: Make sure you pay attention to the subnet mapping and the region you’re 
 
 <img width="1354" height="551" alt="Demo-VPC" src="https://github.com/user-attachments/assets/48225b63-fee4-48cf-bff6-688b34218966" />
 
+
 <img width="1081" height="559" alt="12 Subnets" src="https://github.com/user-attachments/assets/8f22bd06-e53c-40c8-874d-793915c156b0" />
+
 
 <img width="1111" height="552" alt="12 subnets- cont" src="https://github.com/user-attachments/assets/ac70c85f-cdac-4b6f-8378-7cfd43c61c55" />
 
 
+
+<img width="1119" height="509" alt="Route Tables" src="https://github.com/user-attachments/assets/75f3a3e3-3456-40c2-b641-1dd379787b37" />
+
+<img width="1375" height="586" alt="web-publicRT" src="https://github.com/user-attachments/assets/9916cbac-9992-4463-8568-5c97c84bb393" />
+
+<img width="1365" height="540" alt="Web-public-RT-edit" src="https://github.com/user-attachments/assets/ac3e4fcd-9eea-40cc-a481-871e590c82f4" />
+
+<img width="1383" height="549" alt="DB-private-RT" src="https://github.com/user-attachments/assets/16151e5d-25ff-414a-b396-e4ad28651ced" />
+
+<img width="1360" height="414" alt="DB-Private-RT-edit" src="https://github.com/user-attachments/assets/99a0a762-b49d-451c-874c-8727e3d6f56d" />
+
+
+<img width="1368" height="551" alt="App=private-RT" src="https://github.com/user-attachments/assets/f89413d9-bacb-4519-aba8-58bf273cd1e5" />
+
+
+<img width="1365" height="485" alt="App=private-RT-edit" src="https://github.com/user-attachments/assets/76703bda-2b95-4341-81d3-af107c62cc83" />
 
