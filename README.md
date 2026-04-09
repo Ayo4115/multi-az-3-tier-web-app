@@ -243,7 +243,8 @@ When configuring the instance details, make sure to select to correct VPC, subne
 
 Create new key and enable public IP
 
-<img width="1358" height="540" alt="image" src="https://github.com/user-attachments/assets/bbdd8404-19e7-4982-bca7-705bc64051c2" />
+<img width="1359" height="540" alt="image" src="https://github.com/user-attachments/assets/91669c96-1d41-4293-a957-c79fabadb268" />
+
 
 Configure the volume and launch the instance
 
