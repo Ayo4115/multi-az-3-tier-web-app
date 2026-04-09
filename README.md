@@ -70,4 +70,11 @@ Make sure VPC only is selected, and fill out the VPC Settings with a Name tag an
 
 NOTE: Make sure you pay attention to the subnet mapping and the region you’re deploying all your resources in. 
 
+<img width="1354" height="551" alt="Demo-VPC" src="https://github.com/user-attachments/assets/48225b63-fee4-48cf-bff6-688b34218966" />
+
+<img width="1081" height="559" alt="12 Subnets" src="https://github.com/user-attachments/assets/8f22bd06-e53c-40c8-874d-793915c156b0" />
+
+<img width="1111" height="552" alt="12 subnets- cont" src="https://github.com/user-attachments/assets/ac70c85f-cdac-4b6f-8378-7cfd43c61c55" />
+
+
 
