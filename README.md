@@ -22,6 +22,7 @@ App Tier (Backend):
 
 backend-alb: Internal Load Balancer to route traffic from the Web tier to the App tier.
 backend-server: Private application servers processing business logic.
+
 Database Tier:
 
 Multi-AZ RDS: A primary database in AZ-A with a synchronous standby replica in AZ-B for automated failover and high availability.
