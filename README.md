@@ -68,6 +68,6 @@ Navigate to the VPC dashboard in the AWS console and navigate to Your VPCs on th
 
 Make sure VPC only is selected, and fill out the VPC Settings with a Name tag and a CIDR range of your choice.
 
-NOTE: Make sure you pay attention to the region you’re deploying all your resources in. You’ll want to stay consistent for this workshop.
+NOTE: Make sure you pay attention to the subnet mapping and the region you’re deploying all your resources in. 
 
-NOTE: Choose a CIDR range that will allow you to create at least 6 subnets.
+
