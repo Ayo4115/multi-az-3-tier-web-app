@@ -278,9 +278,9 @@ After connecting to the Backend server........
 
 2. Initiate your DB connection with your Aurora RDS writer endpoint. In the following command, replace the RDS writer endpoint and the username, and then execute it in the browser terminal:
 
-   ```bash
-  mysql -h CHANGE-TO-YOUR-RDS-ENDPOINT -u CHANGE-TO-USER-NAME -p
-```
+   ```bash mysql -h CHANGE-TO-YOUR-RDS-ENDPOINT -u CHANGE-TO-USER-NAME -p
+ ``` 
+
 
 
 NOTE: If you cannot reach your database, check your credentials and security groups.
