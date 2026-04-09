@@ -128,4 +128,13 @@ NOTE: Make sure you pay attention to the subnet mapping and the region you’re 
 
 <img width="1390" height="544" alt="Nat Gateway" src="https://github.com/user-attachments/assets/3437ed4b-3f59-4129-b5a6-526b33101213" />
 
+
 <img width="1352" height="632" alt="NAT" src="https://github.com/user-attachments/assets/c409aa30-46f1-4cae-ad6e-ce960c24d69d" />
+
+**Routing Configuration**
+
+Navigate to Route Tables on the left side of the VPC dashboard and click Create route table First, let’s create one route table for web layer public subnets, database, app,and web private database for all the regions and name it accordingly.
+
+
+<img width="1119" height="509" alt="Route Tables" src="https://github.com/user-attachments/assets/1551ff73-be26-4269-8492-b285ec45834d" />
+
