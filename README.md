@@ -173,4 +173,27 @@ The first security group you’ll create is for the frontend application load ba
 <img width="1377" height="555" alt="Database-SG" src="https://github.com/user-attachments/assets/2ba6f9d3-ceb9-446a-88f3-edef70f8ae39" />
 
 
+**Database Deployment - Part 2**
+
+* **Deploy Database Layer**
+
+  * Subnet Groups
+  * Multi-AZ Database
+  * 
+**Subnet Groups**
+
+Navigate to the RDS dashboard in the AWS console and click on Subnet groups on the left hand side. Click Create DB subnet group.
+Give your subnet group a name, description, choose the Demo VPC and all the 3 subnets we created.
+
+
+<img width="1359" height="569" alt="DB-subnet-group" src="https://github.com/user-attachments/assets/9b147eac-d475-45e2-9fc0-6dbcce65f2c4" />
+
+When adding subnets, make sure to add the subnets we created in each availability zone specificaly for our database layer. You may have to navigate back to the VPC dashboard and check to make sure you're selecting the correct subnet IDs.
+
+
+
+
+<img width="1341" height="356" alt="DB-SUB-GP" src="https://github.com/user-attachments/assets/5dd7c312-81f7-4fb3-ba0b-7ffb104488b4" />
+
+
 
