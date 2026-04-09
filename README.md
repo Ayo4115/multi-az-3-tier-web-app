@@ -275,17 +275,68 @@ After connecting to the Backend server........
    sudo yum install mysql -y
 ```
 
-
 2. Initiate your DB connection with your Aurora RDS writer endpoint. In the following command, replace the RDS writer endpoint and the username, and then execute it in the browser terminal:
 
-   ```bash
-   mysql -h CHANGE-TO-YOUR-RDS-ENDPOINT -u CHANGE-TO-USER-NAME -p
- ``` 
+ ```bash
+ mysql -h CHANGE-TO-YOUR-RDS-ENDPOINT -u CHANGE-TO-USER-NAME -p
+``` 
+
 
 NOTE: If you cannot reach your database, check your credentials and security groups.
 
 
 You will then be prompted to type in your password. Once you input the password and hit enter, you should now be connected to your database.
+
+3. Create a database called webappdb with the following command using the MySQL CLI:
+
+```bash
+CREATE DATABASE webappdb;
+``` 
+
+
+You can verify that it was created correctly with the following command:
+
+```bash
+SHOW DATABASES;
+``` 
+
+
+4. Create a data table by first navigating to the database we just created:
+   
+```bash
+USE webappdb;
+```
+
+
+Then, create the following transactions table by executing this create table command:
+
+```bash
+CREATE TABLE IF NOT EXISTS transactions(id INT NOT NULL AUTO_INCREMENT, amount DECIMAL(10,2), description VARCHAR(100), PRIMARY KEY(id));
+```
+
+
+Verify the table was created:
+
+```bash
+SHOW TABLES;
+```
+
+
+Insert data into table for use/testing later:
+
+```bash
+INSERT INTO transactions (amount,description) VALUES ('400','groceries');
+```
+
+
+Verify that your data was added by executing the following command:
+
+```bash
+SELECT * FROM trasactions;
+```
+
+
+When finished, just type exit and hit enter to exit the MySQL client.
 
 
 
