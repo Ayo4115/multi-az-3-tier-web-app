@@ -226,6 +226,9 @@ When your database is provisioned, you should see a reader and writer instance i
 
 <img width="1347" height="550" alt="image" src="https://github.com/user-attachments/assets/bb67edeb-19a2-4409-8c25-ef807d4430e9" />
 
+<img width="1382" height="334" alt="Database" src="https://github.com/user-attachments/assets/ec9b42d8-5528-4613-b68a-22196b1af5f8" />
+
+
 **Instance Deployment - Part 3**
 
 Navigate to the EC2 service dashboard and click on Instances on the left hand side. Then, click Launch Instances.
@@ -238,10 +241,20 @@ When configuring the instance details, make sure to select to correct VPC, subne
 
 <img width="924" height="543" alt="image" src="https://github.com/user-attachments/assets/ab0e57e1-0f48-424a-be2a-61789f614adf" />
 
+Create new key and enable public IP
+
+<img width="1358" height="540" alt="image" src="https://github.com/user-attachments/assets/bbdd8404-19e7-4982-bca7-705bc64051c2" />
+
+Configure the volume and launch the instance
+
+
+<img width="1319" height="508" alt="image" src="https://github.com/user-attachments/assets/6ad44fbf-3829-415d-af77-77c93c021eb7" />
 
 
 
 
 
-<img width="1382" height="334" alt="Database" src="https://github.com/user-attachments/assets/ec9b42d8-5528-4613-b68a-22196b1af5f8" />
+
+
+
 
