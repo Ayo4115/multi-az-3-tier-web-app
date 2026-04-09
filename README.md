@@ -34,15 +34,13 @@ backend-server: Private application servers processing business logic.
 
 📊 **Subnet Mapping**
 
-**Subnet Type	    AZ-A	          AZ-B	           AZ-C**
 
-**Public Web**	   10.0.0.0/20	   10.0.16.0/20	   10.0.32.0/20
-
-**Private Web**	  10.0.48.0/20	  10.0.64.0/20	   10.0.80.0/20
-
-**Private App**	  10.0.96.0/20	  10.0.112.0/20	  10.0.128.0/20
-
-**Private DB**	   10.0.144.0/20	 10.0.160.0/20	  10.0.176.0/20
+| Subnet Type | AZ-A | AZ-B | AZ-C |
+| :--- | :--- | :--- | :--- |
+| **Public Web** | `10.0.0.0/20` | `10.0.16.0/20` | `10.0.32.0/20` |
+| **Private Web** | `10.0.48.0/20` | `10.0.64.0/20` | `10.0.80.0/20` |
+| **Private App** | `10.0.96.0/20` | `10.0.112.0/20` | `10.0.128.0/20` |
+| **Private DB** | `10.0.144.0/20` | `10.0.160.0/20` | `10.0.176.0/20` |
 
 # **Networking and Security - Part 1** #
 
