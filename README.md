@@ -303,6 +303,8 @@ You can verify that it was created correctly with the following command:
 SHOW DATABASES;
 ``` 
 
+<img width="1329" height="680" alt="image" src="https://github.com/user-attachments/assets/2adc3d46-98b9-4517-9fd0-4c98a408e3d1" />
+
 
 4. Create a data table by first navigating to the database we just created:
    
@@ -324,6 +326,8 @@ Verify the table was created:
 SHOW TABLES;
 ```
 
+<img width="1345" height="671" alt="image" src="https://github.com/user-attachments/assets/e77ade6c-5ba0-435b-909c-8a400d2991aa" />
+
 
 Insert data into table for use/testing later:
 
@@ -335,11 +339,14 @@ INSERT INTO transactions (amount,description) VALUES ('400','groceries');
 Verify that your data was added by executing the following command:
 
 ```bash
-SELECT * FROM trasactions;
+SELECT * FROM trasanctions;
 ```
 
 
 When finished, just type exit and hit enter to exit the MySQL client.
+
+<img width="1252" height="688" alt="image" src="https://github.com/user-attachments/assets/b96b8509-f062-4b42-a63a-b8e603e09812" />
+
 
 
 
