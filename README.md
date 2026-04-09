@@ -118,5 +118,14 @@ NOTE: Make sure you pay attention to the subnet mapping and the region you’re 
 
 4. Then, select the correct VPC and click Attach internet gateway.
 
+**NAT Gateway**
+
+1. In order for our instances in the app layer private subnet to be able to access the internet they will need to go through a NAT Gateway. For high availability, you’ll deploy one NAT gateway in each of your public subnets. Navigate to NAT Gateways on the left side of the current dashboard and click Create NAT Gateway.
+
+2. Fill in the Name, choose one of the public subnets you have created, and then allocate an Elastic IP. Click Create NAT gateway.
 
 
+
+<img width="1390" height="544" alt="Nat Gateway" src="https://github.com/user-attachments/assets/3437ed4b-3f59-4129-b5a6-526b33101213" />
+
+<img width="1352" height="632" alt="NAT" src="https://github.com/user-attachments/assets/c409aa30-46f1-4cae-ad6e-ce960c24d69d" />
