@@ -15,10 +15,13 @@ Private Subnets: Used for the application and database tiers to ensure they are 
 
 2. Tier Breakdown
 Web Tier (Frontend):
+
 frontend-alb: Public-facing Load Balancer in Availability Zone B.
 frontend-server: EC2 instances (typically in an Auto Scaling Group) across all three AZs.
 App Tier (Backend):
+
 backend-alb: Internal Load Balancer to route traffic from the Web tier to the App tier.
 backend-server: Private application servers processing business logic.
 Database Tier:
+
 Multi-AZ RDS: A primary database in AZ-A with a synchronous standby replica in AZ-B for automated failover and high availability.
