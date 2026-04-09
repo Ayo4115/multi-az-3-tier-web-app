@@ -348,12 +348,32 @@ When finished, just type exit and hit enter to exit the MySQL client.
 <img width="1252" height="688" alt="image" src="https://github.com/user-attachments/assets/b96b8509-f062-4b42-a63a-b8e603e09812" />
 
 
+Create AMI from both frontend server and backend server
+
+<img width="1363" height="515" alt="image" src="https://github.com/user-attachments/assets/cd273f32-19c9-4798-bad8-bfc82e61e6f1" />
+
+After creating both images, go to ec2, then AMI
+
+<img width="1365" height="470" alt="image" src="https://github.com/user-attachments/assets/d5e3ca94-fc13-4a27-a386-d3fb173edb61" />
 
 
+Now, we need to create launch template from both AMI'S
 
 
+<img width="1342" height="537" alt="image" src="https://github.com/user-attachments/assets/3729424c-e992-4732-84ab-c0b45c41ca55" />
 
 
+Now, select My AMI'S and the associated image
 
+<img width="1354" height="544" alt="image" src="https://github.com/user-attachments/assets/fc8dd99e-19f6-457b-ad9b-be92d7f861a9" />
+
+Select the corresponding existing security group
+
+<img width="1383" height="535" alt="image" src="https://github.com/user-attachments/assets/63eb3114-7449-45c3-b578-fe5b672e97a0" />
+
+
+Add the user scrip in the documentation and replace the url with dns of backend application load balancer
+
+<img width="1351" height="547" alt="image" src="https://github.com/user-attachments/assets/79a36d8b-4524-4198-9c12-2b0593d8d063" />
 
 
