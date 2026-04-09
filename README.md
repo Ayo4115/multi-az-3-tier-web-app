@@ -138,3 +138,39 @@ Navigate to Route Tables on the left side of the VPC dashboard and click Create 
 
 <img width="1119" height="509" alt="Route Tables" src="https://github.com/user-attachments/assets/1551ff73-be26-4269-8492-b285ec45834d" />
 
+**Security Groups**
+
+Security groups will tighten the rules around which traffic will be allowed to our application Load Balancers and EC2 instances. Navigate to Security Groups on the left side of the VPC dashboard, under Security.
+
+The first security group you’ll create is for the frontend application load balancer, frontend server, backend application load balancer, backend server and the database. After typing a name and description, add an inbound rule to allow HTTP, SSH at both frontend server and backend server. The source of each security group adhere to the architectural diagram as seen below.
+
+**Frontend Aplication load Balancer Security Group**
+
+<img width="1377" height="556" alt="Frontend-alb-SG" src="https://github.com/user-attachments/assets/e11fa36e-e712-45a8-85d3-96b41dcd795f" />
+
+
+
+**Frontend Server Security Group**
+
+
+<img width="1359" height="579" alt="Frontend-server-SG" src="https://github.com/user-attachments/assets/1118a366-9d45-4b4d-a4df-6f23d9207a1e" />
+
+**Backend Aplication load Balancer Security Group**
+
+
+
+<img width="1379" height="596" alt="Backend-alb-SG" src="https://github.com/user-attachments/assets/d5d2345b-35e2-47b8-85d5-cbca36b5ffdd" />
+
+
+**Backtend Server Security Group**
+
+
+<img width="1354" height="576" alt="Backend sserver-SG" src="https://github.com/user-attachments/assets/df03310d-5c79-4b18-84dc-8e89442afd56" />
+
+**Database Security Group**
+
+
+<img width="1377" height="555" alt="Database-SG" src="https://github.com/user-attachments/assets/2ba6f9d3-ceb9-446a-88f3-edef70f8ae39" />
+
+
+
