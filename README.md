@@ -282,7 +282,7 @@ After connecting to the Backend server........
    mysql -h CHANGE-TO-YOUR-RDS-ENDPOINT -u CHANGE-TO-USER-NAME -p
 ``` 
 
-NOTE: If you cannot reach your database, check your credentials and security groups.
+    NOTE: If you cannot reach your database, check your credentials and security groups.
 
 
 You will then be prompted to type in your password. Once you input the password and hit enter, you should now be connected to your database.
