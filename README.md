@@ -9,6 +9,7 @@ Architecture Overview
 
 
 
+
 The infrastructure is designed to be fault-tolerant by spreading resources across three Availability Zones (AZ-A, AZ-B, and AZ-C) within a single VPC.
 1. Networking Layer
    
