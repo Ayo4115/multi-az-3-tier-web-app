@@ -186,14 +186,15 @@ Navigate to the RDS dashboard in the AWS console and click on Subnet groups on t
 Give your subnet group a name, description, choose the Demo VPC and all the 3 subnets we created.
 
 
-<img width="1359" height="569" alt="DB-subnet-group" src="https://github.com/user-attachments/assets/9b147eac-d475-45e2-9fc0-6dbcce65f2c4" />
+<img width="1341" height="356" alt="DB-SUB-GP" src="https://github.com/user-attachments/assets/5dd7c312-81f7-4fb3-ba0b-7ffb104488b4" />
+
 
 When adding subnets, make sure to add the subnets we created in each availability zone specificaly for our database layer. You may have to navigate back to the VPC dashboard and check to make sure you're selecting the correct subnet IDs.
 
 
+<img width="1359" height="569" alt="DB-subnet-group" src="https://github.com/user-attachments/assets/9b147eac-d475-45e2-9fc0-6dbcce65f2c4" />
 
 
-<img width="1341" height="356" alt="DB-SUB-GP" src="https://github.com/user-attachments/assets/5dd7c312-81f7-4fb3-ba0b-7ffb104488b4" />
 
 
 
