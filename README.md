@@ -101,19 +101,22 @@ NOTE: Make sure you pay attention to the subnet mapping and the region you’re 
 
 **Internet Gateway**
 
-In order to give the public subnets in our VPC internet access we will have to create and attach an Internet Gateway. Click on Internet Gateway on the Dashboard.
+1. In order to give the public subnets in our VPC internet access we will have to create and attach an Internet Gateway. Click on Internet Gateway on the Dashboard.
 
 
-Create your internet gateway by simply giving it a name and clicking Create internet gateway.
+2. Create your internet gateway by simply giving it a name and clicking Create internet gateway.
 
 
-After creating the internet gateway, attach it to your VPC. You have a couple options on how to do this, either with the creation success message or the Actions drop down.
+3. After creating the internet gateway, attach it to your VPC. You have a couple options on how to do this, either with the creation success message or the Actions drop down.
 
 
 <img width="1318" height="489" alt="Internet Gateway" src="https://github.com/user-attachments/assets/204d20c6-3e7b-4cd3-ad27-6f8c67fca8e0" />
 
 
 <img width="1381" height="543" alt="IG" src="https://github.com/user-attachments/assets/d8498257-b3cf-48a6-ad3d-aa85bd076072" />
+
+
+4. Then, select the correct VPC and click Attach internet gateway.
 
 
 
