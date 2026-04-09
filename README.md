@@ -269,10 +269,10 @@ After connecting to the Backend server........
 
 **Configure Database**
 
- 1. Start by downloading the MySQL CLI:
+ 1. Start by downloading the MYSQL client for linux 2023:
 
    ```bash
-   sudo yum install mysql -y
+   sudo dnf install mariadb105 -y                
 ```
 
 2. Initiate your DB connection with your Aurora RDS writer endpoint. In the following command, replace the RDS writer endpoint and the username, and then execute it in the browser terminal:
