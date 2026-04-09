@@ -271,8 +271,8 @@ After connecting to the Backend server........
 
  1. Start by downloading the MySQL CLI:
 
-   ```bash```
-   sudo yum install mysql -y
+   ```bash
+   sudo yum install mysql -y```
 
 
 
