@@ -363,7 +363,7 @@ Now, we need to create launch template from both AMI'S
 <img width="1342" height="537" alt="image" src="https://github.com/user-attachments/assets/3729424c-e992-4732-84ab-c0b45c41ca55" />
 
 
-Now, select My AMI'S and the associated image
+Now, select My AMI'S and the associated image for frontend server AMI'S 
 
 <img width="1354" height="544" alt="image" src="https://github.com/user-attachments/assets/fc8dd99e-19f6-457b-ad9b-be92d7f861a9" />
 
@@ -375,5 +375,18 @@ Select the corresponding existing security group
 Add the user scrip in the documentation and replace the url with dns of backend application load balancer
 
 <img width="1351" height="547" alt="image" src="https://github.com/user-attachments/assets/79a36d8b-4524-4198-9c12-2b0593d8d063" />
+
+
+Copy the DNS of backend-alb, replace and launch template
+
+<img width="1360" height="343" alt="image" src="https://github.com/user-attachments/assets/9ff4a426-440d-4d5f-9925-c61c092f96c0" />
+
+Follow the same stpe to create launch template backend server AMI'S and replace the host with your RDS endpoint url. similarly, insert your username and password as seen blow
+
+
+<img width="1347" height="500" alt="image" src="https://github.com/user-attachments/assets/5e6f031b-f025-4784-9200-91e90834981b" />
+
+
+<img width="1340" height="501" alt="image" src="https://github.com/user-attachments/assets/a3df9d57-03a4-423a-9045-4390a283c946" />
 
 
