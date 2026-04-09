@@ -251,6 +251,40 @@ Configure the volume and launch the instance
 
 <img width="1319" height="508" alt="image" src="https://github.com/user-attachments/assets/6ad44fbf-3829-415d-af77-77c93c021eb7" />
 
+Follow the same procedure to configure backend server
+
+
+<img width="1343" height="373" alt="image" src="https://github.com/user-attachments/assets/4ca88aa9-a127-4d17-9992-26f065bc1ea4" />
+
+**Connect to Instance**
+
+Navigate to your list of running EC2 Instances by clicking on Instances on the left hand side of the EC2 dashboard. When the instance state is running, connect to your instance by clicking the checkmark box to the left of the instance, and click the connect button on the top right corner of the dashboard.Select the Session Manager tab, and click connect. This will open a new browser tab for you.
+
+<img width="1327" height="506" alt="image" src="https://github.com/user-attachments/assets/f8e927d1-6e6c-40b2-a1be-412158a25e4c" />
+
+After connecting to the Backend server........
+
+
+<img width="1024" height="659" alt="image" src="https://github.com/user-attachments/assets/8783dc98-e0dd-424b-9c90-46aa889ac837" />
+
+**Configure Database**
+
+1. Start by downloading the MySQL CLI:
+
+```bash
+sudo yum install mysql -y
+
+
+2. Initiate your DB connection with your Aurora RDS writer endpoint. In the following command, replace the RDS writer endpoint and the username, and then execute it in the browser terminal:
+
+```bash
+mysql -h CHANGE-TO-YOUR-RDS-ENDPOINT -u CHANGE-TO-USER-NAME -p
+
+**NOTE:** If you cannot reach your database, check your credentials and security groups.
+
+
+You will then be prompted to type in your password. Once you input the password and hit enter, you should now be connected to your database.
+
 
 
 
