@@ -50,17 +50,17 @@ Now we will be building out the VPC networking components as well as security gr
 
 Create an isolated network with the following components:
 
-*VPC
+* VPC
 
-*Subnets
+* Subnets
 
-*Route Tables
+* Route Tables
 
-*Internet Gateway
+* Internet Gateway
 
-*NAT gateway
+* NAT gateway
 
-*Security Groups
+* Security Groups
 
 **VPC and Subnets**
 
