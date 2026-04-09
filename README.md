@@ -226,6 +226,19 @@ When your database is provisioned, you should see a reader and writer instance i
 
 <img width="1347" height="550" alt="image" src="https://github.com/user-attachments/assets/bb67edeb-19a2-4409-8c25-ef807d4430e9" />
 
+**Instance Deployment - Part 3**
+
+Navigate to the EC2 service dashboard and click on Instances on the left hand side. Then, click Launch Instances.
+
+Select the first Amazon Linux 2 AMI
+
+We'll be using the free tier eligible T.3 micro instance type. Select that and click Next: Configure Instance Details.
+
+When configuring the instance details, make sure to select to correct VPC, subnet, and security group we created. we are creating both frontend server and backend server, so use one of the public subnets we created for this layer.
+
+<img width="924" height="543" alt="image" src="https://github.com/user-attachments/assets/ab0e57e1-0f48-424a-be2a-61789f614adf" />
+
+
 
 
 
