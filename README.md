@@ -43,3 +43,27 @@ backend-server: Private application servers processing business logic.
 **Private App**	  10.0.96.0/20	  10.0.112.0/20	  10.0.128.0/20
 
 **Private DB**	   10.0.144.0/20	 10.0.160.0/20	  10.0.176.0/20
+
+# **Networking and Security - Part 1** #
+
+Now we will be building out the VPC networking components as well as security groups that will add a layer of protection around our EC2 instances, Aurora databases, and Elastic Load Balancers.
+
+Create an isolated network with the following components:
+VPC
+Subnets
+Route Tables
+Internet Gateway
+NAT gateway
+Security Groups
+
+**VPC and Subnets**
+
+**VPC Creation**
+
+Navigate to the VPC dashboard in the AWS console and navigate to Your VPCs on the left hand side.
+
+Make sure VPC only is selected, and fill out the VPC Settings with a Name tag and a CIDR range of your choice.
+
+NOTE: Make sure you pay attention to the region you’re deploying all your resources in. You’ll want to stay consistent for this workshop.
+
+NOTE: Choose a CIDR range that will allow you to create at least 6 subnets.
