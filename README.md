@@ -1,9 +1,9 @@
-# multi-az-3-tier-web-app
+# ***multi-az-3-tier-web-app***
 Scalable 3-tier cloud infrastructure on AWS. Features isolated networking layers, auto-scaling web/app tiers, and high-availability database clustering.
 
 
 
-Architecture Overview
+**Architecture Overview**
 
 <img width="3519" height="2684" alt="aws-three-tier-architecture" src="https://github.com/user-attachments/assets/c3a4399b-c564-4e74-a5fe-4492345da8df" />
 
