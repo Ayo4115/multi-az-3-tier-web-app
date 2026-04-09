@@ -273,7 +273,7 @@ After connecting to the Backend server........
 
    ```bash
    sudo yum install mysql -y```
-
+```
 
 
 2. Initiate your DB connection with your Aurora RDS writer endpoint. In the following command, replace the RDS writer endpoint and the username, and then execute it in the browser terminal:
