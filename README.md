@@ -389,4 +389,34 @@ Follow the same stpe to create launch template backend server AMI'S and replace 
 
 <img width="1340" height="501" alt="image" src="https://github.com/user-attachments/assets/a3df9d57-03a4-423a-9045-4390a283c946" />
 
+AUTO SCALING GROUP
+
+Create auto scaling group from launch template
+
+<img width="1361" height="587" alt="image" src="https://github.com/user-attachments/assets/2eb00c9f-69fa-49cb-988e-7fa0b3900d2f" />
+
+Add instance manually and select t3 micro
+
+<img width="1363" height="538" alt="image" src="https://github.com/user-attachments/assets/2de408bb-1118-4e6f-abab-ecf28d41eecb" />
+
+Under Networking, selec the demo VPC and all the 3 app subnets
+
+<img width="1362" height="604" alt="image" src="https://github.com/user-attachments/assets/85c228f4-5c3a-422f-a097-6a99cbeb9f55" />
+
+Select the corresponding load balancer target group
+
+<img width="1332" height="574" alt="image" src="https://github.com/user-attachments/assets/964c7eeb-0ba3-4192-ae2c-d996eb5d894b" />
+
+Select the desired capacity, minimum desired capacity and maximum desired capacity
+
+<img width="1351" height="541" alt="image" src="https://github.com/user-attachments/assets/f7fe29e4-5509-4748-acf0-6eba688378dd" />
+
+set the target tracking scaling policy
+
+<img width="1339" height="606" alt="image" src="https://github.com/user-attachments/assets/a365f522-7f04-411b-97fd-449c9ae0eb1f" />
+
+select nex, review and create auto scaling group
+
+<img width="1342" height="532" alt="image" src="https://github.com/user-attachments/assets/386d1708-a9c4-4383-b2d9-9d5f37d9a10a" />
+
 
