@@ -438,7 +438,7 @@ Follow the same stpe to create launch template backend server AMI'S and replace 
 
 ## <img width="1340" height="501" alt="image" src="https://github.com/user-attachments/assets/a3df9d57-03a4-423a-9045-4390a283c946" />
 
-AUTO SCALING GROUP
+**AUTO SCALING GROUP**
 
 Create auto scaling group from launch template
 
